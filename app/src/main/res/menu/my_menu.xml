@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_back"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_arrow_back"
+        android:title="Backward" />
+
+    <item
+        android:id="@+id/menu_forward"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_arrow_forward"
+        android:title="Forward" />
+    <item
+        android:id="@+id/refresh_btn"
+        android:icon="@drawable/ic_autorenew"
+        android:title="@string/refresh"
+        />
+</menu>
